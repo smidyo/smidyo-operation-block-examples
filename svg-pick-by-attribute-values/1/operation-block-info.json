@@ -1,0 +1,84 @@
+{
+  "inputs": [
+    {
+      "dataShapeConstraint": {
+        "type": "file-svg",
+        "nullable": false,
+        "list": false
+      },
+      "name": "svg",
+      "title": "SVG",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "nullable": false,
+        "list": false
+      },
+      "name": "attribute",
+      "title": "Attribute",
+      "type": "STANDARD",
+      "limitToTextOptions": ["stroke", "fill", "stroke-width"]
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "list": true
+      },
+      "name": "values-1",
+      "title": "Values 1",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "list": true
+      },
+      "name": "values-2",
+      "title": "Values 2",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "list": true
+      },
+      "name": "values-3",
+      "title": "Values 3",
+      "type": "STANDARD"
+    }
+  ],
+  "outputs": [
+    {
+      "dataShapeConstraint": {
+        "type": "file-svg",
+        "list": false
+      },
+      "name": "svg-1",
+      "title": "SVG 1",
+      "type": "FOLLOWER",
+      "followInput": "values-1"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "file-svg",
+        "list": false
+      },
+      "name": "svg-2",
+      "title": "SVG 2",
+      "type": "FOLLOWER",
+      "followInput": "values-2"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "file-svg",
+        "list": false
+      },
+      "name": "svg-3",
+      "title": "SVG 3",
+      "type": "FOLLOWER",
+      "followInput": "values-3"
+    }
+  ]
+}

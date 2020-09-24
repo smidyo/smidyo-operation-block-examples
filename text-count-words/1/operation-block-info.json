@@ -1,0 +1,26 @@
+{
+  "inputs": [
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "nullable": false,
+        "list": false
+      },
+      "name": "text",
+      "title": "Text",
+      "type": "STANDARD"
+    }
+  ],
+  "outputs": [
+    {
+      "dataShape": {
+        "type": "number",
+        "nullable": false,
+        "list": false
+      },
+      "name": "words",
+      "title": "Words",
+      "type": "STANDARD"
+    }
+  ]
+}

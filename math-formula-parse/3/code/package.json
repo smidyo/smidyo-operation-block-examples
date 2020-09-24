@@ -1,0 +1,6 @@
+{
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^6.6.4"
+  }
+}

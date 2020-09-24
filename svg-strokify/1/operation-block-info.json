@@ -1,0 +1,46 @@
+{
+  "inputs": [
+    {
+      "dataShapeConstraint": {
+        "type": "file-svg",
+        "nullable": false,
+        "list": false
+      },
+      "name": "svg",
+      "title": "SVG",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "nullable": true,
+        "list": false
+      },
+      "name": "stroke-width",
+      "title": "Stroke width",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "boolean",
+        "nullable": true,
+        "list": false
+      },
+      "name": "add-non-scaling-stroke-effect",
+      "title": "Add non-scaling-stroke effect",
+      "type": "STANDARD"
+    }
+  ],
+  "outputs": [
+    {
+      "dataShape": {
+        "type": "file-svg",
+        "nullable": false,
+        "list": false
+      },
+      "name": "stroke-only-svg",
+      "title": "Stroke only SVG",
+      "type": "STANDARD"
+    }
+  ]
+}

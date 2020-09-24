@@ -1,0 +1,48 @@
+{
+  "inputs": [
+    {
+      "type": "STANDARD",
+      "title": "Formula",
+      "name": "formula",
+      "dataShapeConstraint": { "type": "text", "list": false, "nullable": false }
+    },
+    {
+      "type": "STANDARD",
+      "title": "Variable a",
+      "name": "variable-a",
+      "dataShapeConstraint": { "type": "number", "list": false, "nullable": false }
+    },
+    {
+      "type": "STANDARD",
+      "title": "Variable b",
+      "name": "variable-b",
+      "dataShapeConstraint": { "type": "number", "list": false, "nullable": true }
+    },
+    {
+      "type": "STANDARD",
+      "title": "Variable c",
+      "name": "variable-c",
+      "dataShapeConstraint": { "type": "number", "list": false, "nullable": true }
+    },
+    {
+      "type": "STANDARD",
+      "title": "Variable d",
+      "name": "variable-d",
+      "dataShapeConstraint": { "type": "number", "list": false, "nullable": true }
+    },
+    {
+      "type": "STANDARD",
+      "title": "Variable e",
+      "name": "variable-e",
+      "dataShapeConstraint": { "type": "number", "list": false, "nullable": true }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "STANDARD",
+      "title": "Result",
+      "name": "result",
+      "dataShape": { "type": "number", "list": false, "nullable": false }
+    }
+  ]
+}

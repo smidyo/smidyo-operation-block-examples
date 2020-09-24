@@ -1,0 +1,46 @@
+{
+  "inputs": [
+    {
+      "dataShapeConstraint": {
+        "type": "file-svg",
+        "nullable": false,
+        "list": false
+      },
+      "name": "svg",
+      "title": "SVG",
+      "type": "STANDARD"
+    }
+  ],
+  "outputs": [
+    {
+      "dataShape": {
+        "type": "text",
+        "nullable": false,
+        "list": true
+      },
+      "name": "stroke-colors",
+      "title": "Stroke colors",
+      "type": "STANDARD"
+    },
+    {
+      "dataShape": {
+        "type": "text",
+        "nullable": false,
+        "list": true
+      },
+      "name": "stroke-widths",
+      "title": "Stroke widths",
+      "type": "STANDARD"
+    },
+    {
+      "dataShape": {
+        "type": "text",
+        "nullable": false,
+        "list": true
+      },
+      "name": "fill-colors",
+      "title": "Fill colors",
+      "type": "STANDARD"
+    }
+  ]
+}
