@@ -1,0 +1,42 @@
+{
+  "inputs": [
+    {
+      "dataShapeConstraint": { "type": "number", "nullable": false, "list": true },
+      "name": "widths",
+      "title": "Widths",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": { "type": "number", "nullable": false, "list": true },
+      "name": "heights",
+      "title": "Heights",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": { "type": "number", "nullable": false, "list": false },
+      "name": "width",
+      "title": "Width",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": { "type": "number", "nullable": false, "list": false },
+      "name": "height",
+      "title": "Height",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": { "type": "number", "nullable": true, "list": false },
+      "name": "margin",
+      "title": "Margin",
+      "type": "STANDARD"
+    }
+  ],
+  "outputs": [
+    {
+      "dataShape": { "type": "number", "nullable": true, "list": false },
+      "name": "smallest-sheet-index",
+      "title": "Smallest sheet index",
+      "type": "STANDARD"
+    }
+  ]
+}

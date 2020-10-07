@@ -1,0 +1,96 @@
+{
+  "inputs": [
+    {
+      "dataShapeConstraint": {
+        "type": "file-svg",
+        "nullable": false
+      },
+      "name": "svg",
+      "title": "SVG",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "nullable": false,
+        "list": false
+      },
+      "name": "stroke",
+      "title": "Stroke",
+      "type": "STANDARD",
+      "limitToTextOptions": [
+        "original-or-fill-or-preferred",
+        "fill-or-original-or-preferred",
+        "preferred",
+        "remove",
+        "original"
+      ]
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "nullable": false,
+        "list": false
+      },
+      "name": "fill",
+      "title": "Fill",
+      "type": "STANDARD",
+      "limitToTextOptions": [
+        "original-or-stroke-or-preferred",
+        "preferred",
+        "remove",
+        "original"
+      ]
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "nullable": false,
+        "list": false
+      },
+      "name": "stroke-width",
+      "title": "Stroke width",
+      "type": "STANDARD",
+      "limitToTextOptions": ["preferred-if-no-fill", "preferred", "remove", "original"]
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "nullable": true,
+        "list": false
+      },
+      "name": "preferred-color",
+      "title": "Preferred-color",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "text",
+        "nullable": true,
+        "list": false
+      },
+      "name": "preferred-stroke-width",
+      "title": "Preferred-stroke-width",
+      "type": "STANDARD"
+    },
+    {
+      "dataShapeConstraint": {
+        "type": "boolean",
+        "nullable": true,
+        "list": false
+      },
+      "name": "add-non-scaling-stroke-effect",
+      "title": "Add non-scaling-stroke effect",
+      "type": "STANDARD"
+    }
+  ],
+  "outputs": [
+    {
+      "dataShapeConstraint": {},
+      "name": "rewritten-svg",
+      "title": "Rewritten svg",
+      "type": "FOLLOWER",
+      "followInput": "svg"
+    }
+  ]
+}
